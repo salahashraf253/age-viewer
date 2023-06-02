@@ -87,16 +87,16 @@ const ServerConnectFrame = ({
               layout="vertical"
               onFinish={connectToDatabase}
             >
-              <Form.Item name="host" label="Connect URL" rules={[{ required: true }]}>
+              <Form.Item name="connect url" label="Connect URL" rules={[{ required: true }]}>
                 <Input placeholder="192.168.0.1" />
               </Form.Item>
-              <Form.Item name="port" label="Connect Port" rules={[{ required: true }]}>
+              <Form.Item name="port number" label="Connect Port" rules={[{ required: true }]}>
                 <InputNumber placeholder="5432" className={styles.FullWidth} />
               </Form.Item>
-              <Form.Item name="database" label="Database Name" rules={[{ required: true }]}>
+              <Form.Item name="database name" label="Database Name" rules={[{ required: true }]}>
                 <Input placeholder="postgres" />
               </Form.Item>
-              <Form.Item name="user" label="User Name" rules={[{ required: true }]}>
+              <Form.Item name="user name" label="User Name" rules={[{ required: true }]}>
                 <Input placeholder="postgres" />
               </Form.Item>
               <Form.Item name="password" label="Password" rules={[{ required: true }]}>
